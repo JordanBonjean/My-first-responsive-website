@@ -1,0 +1,226 @@
+.carousel-item{
+    height: 20%;
+} 
+.carousel-item img{
+    height: 20%;
+}
+.bd-example img {
+    height: 80vmin
+}
+.fellows {
+    margin: 2rem;
+}
+.carousel-texte{
+    margin-bottom: 15%;
+}
+.carousel-texte h5{
+    font-size: 3rem;
+    font-family: "PartyBusiness";
+}
+.carousel-texte p {
+    font-size: 3rem;
+}
+/* Police */
+@font-face {
+    font-family: "Aniron";
+    src: url(pete-klassen_aniron/anicb___.ttf);
+    src: url(pete-klassen_aniron/anicm___.ttf);
+    src: url(pete-klassen_aniron/anirb___.ttf);
+    src: url(pete-klassen_aniron/anirm___.ttf);   
+}
+@font-face {
+    font-family: "PartyBusiness";
+    src: url(nancy-lorenz_party-business/partybusiness.ttf);  
+}
+@font-face {
+    font-family: "Symboles";
+    src: url(tengwar_annatar/tngan.ttf);
+}
+.fontsSymb {
+    font-family: "Symboles", Arial, Helvetica, sans-serif;
+    color: #FF5700;
+}
+p, td {
+    font-family: "PartyBusiness", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+h2, h5, .pills {
+    font-family: "Aniron", Arial, Helvetica, sans-serif;
+}
+/* Nav color */
+
+.couleurnav {
+    background-color: #FF5700;
+    font-family: "Aniron", Arial, Helvetica, sans-serif
+}
+
+/* CARD HOVER */
+.card {
+    transition: all 0.5s ease;
+}
+.card img {
+    opacity: 0.4;
+    transition: all 0.7s ease;
+}
+.texte p {
+    position: absolute;
+    background-color: rgba(236, 228, 228, 0.7);
+    height: 6rem;
+    font-size: 22pt;
+    border-radius: 10px;
+    text-align: center;
+    top: 10%;
+    left: 25%;
+    padding-top: 10px;
+    transition: all 0.7s ease;
+}
+/* Captured Reward */
+.capturedReward {
+    background-color: #202020;
+    color: white;
+    
+}
+.capturedReward button {
+    background-color: white;
+    color: #FF5700;
+    font-family: "Aniron", Arial, Helvetica, sans-serif
+}
+hr {
+    color: #FF5700;
+}
+.orange {
+    color: rgba(241, 134, 46, 0.959);
+}
+.texte h1 {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    left: 20%;
+    top: 45%;
+    transition: all 0.7s ease;
+    font-family: "Aniron", Arial, Helvetica, sans-serif;
+}
+.card:hover .hoverCard {
+    opacity: 0;
+}
+.card:hover h1 {
+    bottom: 0;
+    left: 50%;
+    text-align: center;
+    font-size: 18pt;
+}
+.card:hover img{
+    opacity: 1;
+}
+.texteHobbit p {
+    position: absolute;
+    height: 4rem;
+    color: #FF5700;
+    font-size: 3rem;
+    text-align: center;
+    top: 20%;
+    left: 35%;
+    transition: all 0.7s ease;
+    font-weight: bold;
+}
+.texteHobbit h1 {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    left: 25%;
+    top: 45%;
+    transition: all 0.7s ease;
+    font-family: "Aniron", Arial, Helvetica, sans-serif;
+}
+del 
+{
+    color: #FF5700;
+}
+del span {
+    color: white;
+}
+.card-text {
+    font-size: 1.9rem;
+}
+/* Best hunters */
+.hunterLink {
+    text-decoration: underline;
+    color: black;
+}
+.hunterLink:hover {
+    text-decoration: none;
+    color: darkgrey
+}
+.aboutTheRing {
+    width: 80%;
+    margin: auto;
+}
+.aboutTheRing h6 {
+    font-family: "Aniron", Arial, Helvetica, sans-serif;
+}
+.aboutTheRing img {
+    opacity: 1;
+    border-radius: 100%;
+}
+/* Badge */
+.badge-orange {
+    text-decoration: underline;
+    text-decoration-color: #FF5700;
+    color: #FF5700;
+}
+/* Background light */
+.container {
+    background-image: url(integration_maquette_finale/bg_light.png)
+}
+.huntersColors {
+    color: #FF5700;
+}
+.test {
+    background-color: #202020;
+    width: 20%;
+}
+.ringCapa {
+    background-color: #202020;
+    width: 100%;
+}
+.titleOrange {
+    background: #FF5700;
+    color: black;
+}
+.abTitle {
+    color: white;
+}
+.card-header {
+    background: #FF5700;
+}
+.need-you-pic {
+    width: 50%;
+    height: auto;
+}
+.buttonSauron {
+    color: #FF5700;
+    font-family: "Aniron", Arial, Helvetica, sans-serif;
+}
+.buttonSauron button {
+    color: #FF5700;
+}
+.contactUs {
+    width: 100%;
+    background-color: #202020;
+}
+.contactuSPart img {
+    width: 45%;
+    margin-right: 3%;
+}
+.contactUs h2 {
+    color: white;
+}
+.footerRow {
+    background-color: #FF5700 !important;
+}
+.footerRow a {
+    color: white;
+}
+.footerRow a:hover {
+    color: grey;
+}
